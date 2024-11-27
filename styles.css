@@ -31,6 +31,9 @@ h1 {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    background-color: transparent; /* لون الخلفية الافتراضي */
+    padding: 10px; /* إضافة بعض المسافة داخل الزر */
+    border-radius: 5px; /* جعل الزر بأطراف مستديرة */
 }
 
 .menu-icon .bar {
@@ -113,13 +116,13 @@ body.dark-theme {
 }
 
 .dark-theme .menu-icon .bar {
-    background-color: #ffc107;
+    background-color: #a0aec0; /* لون أرمادي */
 }
-.dark-theme .menu-icon .top-header{
-color: #1f1b1b;
-background-color: #1f1b1b;
 
+.dark-theme .menu-icon {
+    background-color: #1f1b1b; /* لون خلفية داكن */
 }
+
 .dark-theme .header-icon {
     filter: invert(1);
 }
